@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200">
       <Head>
         <title>Progressive Fit Ball App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="text-6xl font-bold">
           Progressive{' '}
           <a className="text-blue-600">
-          {' '}Fit Ball!
+          {' '}FitBall
           </a>
         </h1>
         <p className="mt-3 text-2xl">
