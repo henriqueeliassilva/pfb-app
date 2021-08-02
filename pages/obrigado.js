@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 function ThankYou () {
-    return <div className=" flex flex-col items-center justify-center min-h-screen bg-gray-200">
+    return <div className=" flex flex-col items-center justify-center min-h-screen bg-gray-400">
          <h1 className="text-6xl font-bold">
           Obrigado!{' '}
         </h1>
