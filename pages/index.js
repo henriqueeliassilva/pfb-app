@@ -10,12 +10,12 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Progressive{' '}
-          <a className="text-blue-600" href="#">
-          {' '}FitBall!
+          <a className="text-blue-600">
+          {' '}Fit Ball!
           </a>
         </h1>
         <p className="mt-3 text-2xl">
-        Cadastre-se para participar do nosso primeiro evento on-line e gratuito.{' '}
+        Cadastre-se para participar do nosso primeiro {' '}evento on-line e gratuito.{' '}
         </p>
 
         <form method="POST" action="https://pfb.activehosted.com/proc.php" id="_form_1_" class="_form _form_1 _inline-form  _dark" novalidate>
