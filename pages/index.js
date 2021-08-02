@@ -28,12 +28,12 @@ export default function Home() {
     <input type="hidden" name="v" value="2" />
     <div >
       
-      <div className="p-4">
+      <div className="p-4 m-4">
         {/* <label for="fullname" >
          <p className="text-2xl pb-2">Digite seu nome </p> 
         </label> */}
         <div>
-          <input  className="rounded pl-2 p-4 px-40 py-2 border-2" type="text" id="fullname" name="fullname" placeholder="Digite seu nome" />
+          <input  className="rounded pl-2 p-4 px-36 py-2 border-2" type="text" id="fullname" name="fullname" placeholder="Digite seu nome" />
         </div>
       </div>
       <div className="pb-4">
@@ -41,7 +41,7 @@ export default function Home() {
          <p className="text-2xl ">Digite seu email*</p> 
         </label> */}
         <div className="pb-" >
-          <input className="rounded pl-2  p-4 px-40 py-2 border-2" type="text" id="email" name="email" placeholder="Digite seu email" required/>
+          <input className="rounded pl-2  p-4 px-36 py-2 border-2" type="text" id="email" name="email" placeholder="Digite seu email" required/>
         </div>
       </div>
       <div >
