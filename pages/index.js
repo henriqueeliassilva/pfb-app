@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-300">
       <Head>
         <title>Progressive Fit Ball App</title>
         <link rel="icon" href="/favicon.ico" />
