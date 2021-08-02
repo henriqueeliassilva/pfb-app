@@ -7,7 +7,7 @@ export default function Home() {
         <title>Progressive Fit Ball App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
         <h1 className="text-6xl font-bold">
           Progressive{' '}
           <a className="text-blue-600">
@@ -28,24 +28,24 @@ export default function Home() {
     <input type="hidden" name="v" value="2" />
     <div >
       
-      <div className="p-4 m-4">
+      <div>
         {/* <label for="fullname" >
          <p className="text-2xl pb-2">Digite seu nome </p> 
         </label> */}
         <div>
-          <input  className="rounded pl-2 p-4 px-36 py-2 border-2" type="text" id="fullname" name="fullname" placeholder="Digite seu nome" />
+          <input  className="mt-4 rounded pl-2 p-4 px-36 py-2 border-2" type="text" id="fullname" name="fullname" placeholder="Digite seu nome" />
         </div>
       </div>
       <div className="pb-4">
         {/* <label  for="email">
          <p className="text-2xl ">Digite seu email*</p> 
         </label> */}
-        <div className="pb-" >
-          <input className="rounded pl-2  p-4 px-36 py-2 border-2" type="text" id="email" name="email" placeholder="Digite seu email" required/>
+        <div>
+          <input className="rounded pl-2 p-4 py-2  my-2 px-36  border-2" type="text" id="email" name="email" placeholder="Digite seu email" required/>
         </div>
       </div>
       <div >
-        <button className=" uppercase rounded  px-24 py-2 bg-blue-600 text-white"  id="_form_1_submit"  type="submit" >
+        <button className=" uppercase rounded py-2 px-24 bg-blue-600 hover:bg-blue-400  text-white"  id="_form_1_submit"  type="submit" >
           Quero participar
         </button>
       </div>
