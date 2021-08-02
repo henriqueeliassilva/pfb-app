@@ -18,7 +18,7 @@ export default function Home() {
         Cadastre-se para participar do nosso primeiro evento on-line e gratuito.
         </p>
 
-        <form method="POST" action="https://pfb.activehosted.com/proc.php" id="_form_1_" class="_form _form_1 _inline-form  _dark" novalidate>
+        <form method="POST" action="https://pfb.activehosted.com/proc.php" id="_form_1_" noValidate>
     <input type="hidden" name="u" value="1" />
     <input type="hidden" name="f" value="1" />
     <input type="hidden" name="s" />
