@@ -1,11 +1,11 @@
 import Link from 'next/link'
 
 function ThankYou () {
-    return <div className=" flex flex-col items-center justify-center min-h-screen bg-gray-400">
+    return <div className=" flex flex-col items-center justify-center min-h-screen bg-gray-200">
          <h1 className="text-6xl font-bold">
           Obrigado!{' '}
         </h1>
-        <p className=" text-center m-3 text-2xl">
+        <p className=" text-center m-3 text-xl">
         Seu cadastro foi realizado com sucesso. {' '}Em breve mandaremos mais informações no seu e-mail.{' '}
         </p>
         <p className="text-center m-3 text-xl">Participe do nosso grupo de WhatsApp e seja {' '}um dos primeiros a saber sobre o lançamento da primeira turma on-line. </p>       
