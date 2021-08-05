@@ -12,11 +12,8 @@ export default function Home() {
       <div className="bg-gray-400 min-h-screen flex ">
         <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
           <div className="bg-white px-6 py-8 rounded shadow-md text-black w-full">
-          <h1 className="text-4xl font-bold">
-          Progressive{' '}
-          <a className="text-blue-600">
-          {' '}FitBall
-          </a>
+          <h1 className="text-5xl font-bold">
+          Progressive <span className="text-blue-600">FitBall</span>
         </h1>
         <p className="mt-3 mb-3 text-lg">
         Cadastre-se para participar do nosso primeiro evento on-line e gratuito.
